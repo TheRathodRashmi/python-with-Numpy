@@ -1,0 +1,8 @@
+import numpy as np
+lst1=[10,20,30,40,50]
+array1=np.array(lst1, dtype='U3')
+print(array1)
+print(type(array1))
+
+''' output: ['10' '20' '30' '40' '50']
+<class 'numpy.ndarray'>'''
