@@ -1,0 +1,15 @@
+# element position sorting using argsort ()
+import numpy as np
+x=np.array([1,5,9,7,3,4,6,8,2])
+
+y=np.argsort(x)
+print(x)
+print("^^^^Given Position(index) of element sorting^^^^")
+print(y)
+
+'''o/p:
+
+[1 5 9 7 3 4 6 8 2]
+^^^^Given Position(index) of element sorting^^^^
+[0 8 4 5 1 6 3 7 2]
+'''
