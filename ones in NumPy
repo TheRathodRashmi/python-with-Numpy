@@ -1,0 +1,9 @@
+import numpy as np
+array1=np.ones((4,2))
+print(array1)
+
+''' o\p: 
+[[1. 1.]
+ [1. 1.]
+ [1. 1.]
+ [1. 1.]]'''
