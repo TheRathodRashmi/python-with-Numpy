@@ -1,0 +1,28 @@
+
+
+// Find Demensiomnal in Array
+import numpy as np
+lst1=[10,20,30,40,50]
+ary1=np.array(lst1)
+ary1.ndim
+
+'''o/p:
+
+1'''
+
+// Find Demensiomnal in  2D Array
+import numpy as np
+lst1=[[10,20,30],[40,50,60]]
+ary2=np.array(lst1)
+ary2.ndim
+
+// o/p: 2
+
+// Find Demensiomnal in  3D Array
+
+import numpy as np
+lst1=[[[10,20,30],[40,50,60],[11,22,33]]]
+ary3=np.array(lst1)
+ary3.ndim
+
+// o/p: 3
