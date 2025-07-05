@@ -1,0 +1,33 @@
+# argsort in ARRAY
+import numpy as np
+x=np.array([[12,11,15],
+            [21,25,20],
+            [18,27,16]])
+
+print("^^^^Column vise argument sorting position^^^^")
+y=np.argsort(x, axis=0)
+print(y)
+
+'''o/p:
+^^^^Column vise argument sorting position^^^^
+[[0 0 0]
+ [2 1 2]
+ [1 2 1]]
+^^^^Row vise argument sorting position^^^^
+[[1 0 2]
+ [2 0 1]
+ [2 0 1]]
+^^^^In Place Sorting ^^^^
+[[11 12 15]
+ [20 21 25]
+ [16 18 27]]
+
+'''
+
+print("^^^^Row vise argument sorting position^^^^")
+y=np.argsort(x, axis=1)
+print(y)
+
+print("^^^^In Place Sorting ^^^^")
+x.sort()
+print(x)
