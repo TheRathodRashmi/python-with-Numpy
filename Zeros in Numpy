@@ -1,0 +1,9 @@
+import numpy as np
+array1=np.zeros((4,2))
+print(array1)
+
+'''o\p: 
+[[0. 0.]
+ [0. 0.]
+ [0. 0.]
+ [0. 0.]]'''
