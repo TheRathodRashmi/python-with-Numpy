@@ -1,0 +1,8 @@
+# inplace Sorting 
+import numpy as np
+x=np.array([1,5,9,7,3,4,6,8,2])
+x.sort()
+print(x)
+''' o/p:
+[1 2 3 4 5 6 7 8 9]
+'''
