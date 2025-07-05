@@ -26,3 +26,16 @@ ary3=np.array(lst1)
 ary3.ndim
 
 // o/p: 3
+// print Dimention array
+import numpy as np
+lst1=[[[10,20,30],[40,50,60],[11,22,33]]]
+ary3=np.array(lst1)
+print(ary3)
+ary.ndim
+
+'''o/p:
+[[[10 20 30]
+  [40 50 60]
+  [11 22 33]]]
+ 3'''
+
