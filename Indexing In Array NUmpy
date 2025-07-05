@@ -1,0 +1,29 @@
+// find indexing in 1D array
+import numpy as np
+ary=np.array([10,20,30,40,50])
+print(ary[1])
+print(ary[-1])
+'''o/p:
+
+20
+50'''
+
+// find 2D Array Indexing
+import numpy as np
+ary=np.array([[10,20,30],[40,50,60],[70,80,90]])
+
+print(ary[1:3])
+
+print('\n')
+print(ary[1,2])
+print('\n')
+print(ary[:,1])
+'''o/p:
+[[40 50 60]
+ [70 80 90]]
+
+
+60
+
+
+[20 50 80]'''
