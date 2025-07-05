@@ -1,0 +1,60 @@
+import numpy as np
+x=np.array([[12,11,15],
+            [21,25,20],
+            [18,27,16]])
+print("It's always by default sort in row vise")
+y= np.sort(x)
+print(x)
+print("--------------After Sorting-----------")
+print(y)
+'''o/p:
+It's always by default sort in row vise
+[[12 11 15]
+ [21 25 20]
+ [18 27 16]]
+--------------After Sorting-----------
+[[11 12 15]
+ [20 21 25]
+ [16 18 27]]'''
+
+#Sorting in Column vise Array
+
+import numpy as np
+x=np.array([[12,11,15],
+            [21,25,20],
+            [18,27,16]])
+print("1ST^^^^^^^^^^")
+print("It's sorting in column vise using 'axis=0'")
+column= np.sort(x, axis=0)
+print(x)
+print("--------------After Sorting-----------")
+print(column)
+
+print("2ST^^^^^^^^^^")
+print("It's sorting in row vise using 'axis=1'")
+row= np.sort(x, axis=1)
+print(x)
+print("--------------After Sorting-----------")
+print(row)
+
+'''o/p:
+
+1ST^^^^^^^^^^
+It's sorting in column vise using 'axis=0'
+[[12 11 15]
+ [21 25 20]
+ [18 27 16]]
+--------------After Sorting-----------
+[[12 11 15]
+ [18 25 16]
+ [21 27 20]]
+1ST^^^^^^^^^^
+It's sorting in row vise using 'axis=1'
+[[12 11 15]
+ [21 25 20]
+ [18 27 16]]
+--------------After Sorting-----------
+[[11 12 15]
+ [20 21 25]
+ [16 18 27]]
+'''
