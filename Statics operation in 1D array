@@ -1,0 +1,104 @@
+# 1. max() opertion
+import numpy as np
+x=np.array([2,4,3,9,7])
+y=np.max(x)
+print(y)
+
+'''o/p:
+9
+'''
+------------------------------------------------------
+# 2. min() opertion
+
+import numpy as np
+x=np.array([2,4,3,9,7])
+y=np.min(x)
+print(y)
+
+'''o/p:
+2
+'''
+--------------------------------------------------------------
+# 3. sum() opertion
+import numpy as np
+x=np.array([2,4,3,9,7])
+y=np.sum(x)
+print(y)
+'''o/p:
+25
+'''
+---------------------------------------------------------------
+# 4. mean() opertion{mean() it means total of all element devided by number of elelment}
+'''caluation
+2+4+3+7+9=25
+25/5=5.0'''
+
+import numpy as np
+x=np.array([2,4,3,9,7])
+y=np.mean(x)
+print(y)
+'''o/p:
+5.0
+'''
+----------------------------------------------------------
+# 5. median() opertion odd value
+'''calculation for odd
+2 4 3 7 9
+first of all spoting the elements=2 3 4 7 9
+mid value =4'''
+
+import numpy as np
+x=np.array([2,4,3,9,7])
+y=np.median(x)
+print(y)
+'''o/p:
+4
+'''
+-------------------------------------------------------------
+# 5. median() opertion even value
+import numpy as np
+x=np.array([1,2,4,3,5,6,9,8,7,10])
+y=np.median(x)
+print(y)
+'''calculation for even value
+2 4 3 7 9 1 10 5 6 8
+first of all spoting the elements=1 2 3 4 5 6 7 8 9 10
+we have to find mid valu 
+there is two mis values 5 and 6 than 5+6=11/2=5.5
+mid value =5.5'''
+
+'''o/p:
+5.5
+'''
+---------------------------------------------------------
+# 6. prod() opertion it will multiple all element 
+import numpy as np
+x=np.array([2,4,3,9,7])
+y=np.prod(x)
+print(y)
+'''o/p:
+1512
+'''
+--------------------------------------------------------
+# 7. var() opertion it means variance
+'''calculation 
+mean=5
+than 
+(5-2)**2 + (5-4)**2 + (5-3)**2 + (5-9)**2 + (5-7)**2=6.8
+
+import numpy as np
+x=np.array([2,4,3,9,7])
+y=np.var(x)
+print(y)
+'''o/p:
+6.8
+'''
+--------------------------------------------------
+# 8.std() Square rooting with the answer of the answer
+import numpy as np
+x=np.array([2,4,3,9,7])
+y=np.std(x)
+print(y)
+'''o/p:
+2.6076809620810595
+'''
